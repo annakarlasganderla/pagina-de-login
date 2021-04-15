@@ -1,0 +1,76 @@
+body {
+    padding: 11em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://image.freepik.com/free-vector/illustration-sunset-sky-with-clouds_33099-2387.jpg");
+    background-size: cover;
+}
+
+.container {
+    border-radius: 20px;
+    background: white;
+    border: none;
+    width: 15em;
+    height: 17em;
+}
+
+.login {
+    padding: 1em;
+    border: 6em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(15, 14, 14);
+}
+
+label {
+    font-family: Courier, monospace;
+    margin: none;
+}
+ 
+#nome {
+    display: block;
+    border: none;
+    border-bottom: 2px solid rgb(143, 2, 56);
+    width: 17.1em;
+}
+
+#nome:hover {
+    background-color: rgb(235, 209, 227);
+}
+
+#senha{
+    display: block;
+    border: none;
+    border-bottom: 2px solid rgb(143, 2, 56);
+    width: 17.1em;
+}
+
+#senha:hover {
+    background-color: rgb(235, 209, 227);
+}
+
+
+.button {
+    display: block;
+    color: black;
+    font-family: Courier, monospace;
+    background-color: rgb(240, 120, 140);
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6em;
+    height: 3em;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: pink;
+}
